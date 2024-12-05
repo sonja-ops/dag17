@@ -38,7 +38,7 @@ addButton.addEventListener("click",function () {
         if (todoItem.classList.contains("done")) {
             todoItem.remove();
         } else {
-            alert()
+            alert("Gjøremålet må markeres ferdig før sletting")
         }
     })
 });
